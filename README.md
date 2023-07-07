@@ -1,0 +1,1 @@
+Repositório destinado para desafios rápidos (7daysOfCode - Alura)
