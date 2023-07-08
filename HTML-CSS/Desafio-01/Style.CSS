@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
   --text-logotipo: #3A404E;
@@ -6,22 +6,22 @@
   --btn-color-cadastrar:#fff;
   --background-cadastrar:#8E2424;
   --shadow-cadastrar: #1018280d;
+  --h1-color:#101828;
 }
 
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: 'Inter', sans-serif;
 }
 
-.container{
+.container-nav{
   display: flex;
   width: 1280px;
-  max-width: 1280px;
   margin: 18px auto;
   justify-content: space-between;
   padding: 0 32px;
-  box-sizing: border-box;
   align-items: center;
 }
 
@@ -29,14 +29,12 @@ li{
   display: inline-flex;
 }
 
-
 li > a{
   text-decoration: none;
   color: var(--link-color);
-  font-family: Inter;
   font-size: 16px;
   font-weight: 500;
-  padding: 10px 16px;
+  padding: 0 16px;
   justify-content: center;
   align-items: center;
 }
@@ -44,16 +42,13 @@ li > a{
 #logo{
   color: var(--text-logotipo);
   text-decoration: none;
+  margin-left: 8px;
 }
 
 #logotipo{
   display: flex;
   font-size: 18px;
   align-items: center;
-}
-
-svg{
-  margin-right: 8px;
 }
 
 #Cadastrar{
@@ -63,8 +58,6 @@ svg{
   box-shadow: 0px 1px 2px 0px var(--shadow-cadastrar);
   color: var(--btn-color-cadastrar);
   padding: 10px 18px;
-  justify-content: center;
-  align-items: center;
   margin-left: 12px;
 }
 
@@ -72,4 +65,32 @@ svg{
   width: 142px;
   height: 32px;
   flex-shrink: 0;
+}
+
+h3{
+  color:var(--background-cadastrar);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container-aboutUs{
+  width: 792px;
+  margin: 96px auto 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  color: var(--h1-color);
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.96px;
+  margin: 24px 0;
+}
+
+.apresentar{
+  color: var(--link-color);
+  font-size: 20px;
+  font-weight: 400;
 }
